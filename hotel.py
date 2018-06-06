@@ -8,7 +8,7 @@ class Hotel():
         self.empty_rooms = empty_rooms
 
         Hotel.hotels.append([self.number , self.hotel_name, self.city, self.total_rooms, self.empty_rooms])
-        
+
 def list_hotels_in_city(self, city):
     # search inside Hotel.hotels for hotels in a "city"
     self.city = city
@@ -16,4 +16,4 @@ def list_hotels_in_city(self, city):
         if Hotel.hotels["city"]==self.city:
             print self.city
 
-    list_hotels_in_city(self, city)
+
