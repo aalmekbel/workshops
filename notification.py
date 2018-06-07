@@ -16,6 +16,6 @@ auth_token  = "fb9fd973a00a6f406b6860db56cc433c"
 
 client = Client(account_sid, auth_token)
 
-message = client.messages.create(to="+966554430150",from_="+13522928117",body="confirmation")
+message = client.messages.create(to="*************",from_="+13522928117",body="confirmation")
 
 print(message.sid)
